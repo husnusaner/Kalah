@@ -19,7 +19,7 @@ public class PlayKalah {
 		//Create a Kalah object
 		Kalah gmKalah = new Kalah(numOfPits, numOfStones);
 		
-		//temp player id
+		//First player id
 		int player = 0;
 		
 		// rc is used for input from JOptionPane

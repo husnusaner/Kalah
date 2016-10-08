@@ -44,7 +44,7 @@ public class Kalah {
 			//create the layer
 			Player pl = new Player(j, tempPt);
 
-			//add plaayer to hashmap
+			//add player to hashmap
 			players.put(j, pl);
 
 		}
@@ -124,7 +124,7 @@ public class Kalah {
 		//Build string according to stones of kalah for players
 		String result = "Player 0 total Stones: " + players.get(0).countStones + "\nPlayer 1 total Stones: " + players.get(1).countStones;
 
-		//Compare the Kalah for all players to find the winner and display the winners
+		//Compare the Kalah for all players to find the winner and display the winner
 		if (players.get(0).countStones > players.get(1).countStones){
 			JOptionPane.showMessageDialog (null, "Player 0 Win\n" + result, "Winner", JOptionPane.INFORMATION_MESSAGE);
 		}else if (players.get(0).countStones < players.get(1).countStones){
@@ -191,7 +191,7 @@ public class Kalah {
 			// Increase pit id to access next pit
 			temp_pt_ID++;
 
-			//Decrease the number of stones in tha hand
+			//Decrease the number of stones in the hand
 			numOfStone--;
 		}
 

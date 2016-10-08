@@ -17,7 +17,7 @@ public class Player{
 		this.pits.addAll(pits);
 	}
 	
-	/* Retun Kalah count
+	/* Return Kalah count
 	 * 
 	 */
 	public int getCountStones(){
